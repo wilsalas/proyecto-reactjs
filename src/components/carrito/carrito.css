@@ -1,0 +1,78 @@
+.content-cart-top {
+    background: white;
+    margin-top: 70px;
+    padding: 30px 25px 1px;
+    border-radius: 7px;
+    box-shadow: 5px 2px 16px #000000cf;
+}
+
+.divider {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    width: 100%;
+}
+
+.content-table-c {
+    width: 100%
+}
+
+th, td {
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover {background-color: #f5f5f5;}
+
+th {
+    background-color: #FFC107;
+    color: white;
+}
+
+th {
+    padding: 11px;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+.compra-total {
+    background: rgba(227, 222, 222, 0.27);
+    padding: 20px 15px 5px;
+    border-radius: 9px;
+}
+
+.card-add-button,
+.cart-cancel-button {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #2d2;
+    display: block;
+    width: 100%;
+    max-width: 20rem;
+    padding: 0.25rem 0.5rem;
+    margin: 1.5rem auto 0;
+    border: none;
+    border-radius: 0.375rem;
+    box-shadow: 0 0.375rem #2b2;
+    transition: 0.2s;
+}
+
+.cont-bt-c {
+    margin-bottom: -5px;
+}
+
+.content-icons {
+  width: 5px;
+  color: red;
+}
+
+.elim-icon-prod {
+    cursor: pointer;
+}

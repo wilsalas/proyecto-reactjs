@@ -1,0 +1,26 @@
+.loader:empty {
+    position: absolute;
+    top: calc(55% - 3em);
+    left: calc(50% - 3em);
+    width: 5.5em;
+    height: 5.5em;
+    border: 1.0em solid rgba(0, 0, 0, 0.2);
+    border-left: 1.0em solid #2196F3;
+    border-radius: 50%;
+    -webkit-animation: load8 1.1s infinite linear;
+    animation: load8 1.1s infinite linear;
+  }
+  
+  @keyframes load8 {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  .content-loading {
+    position: static;
+    margin-bottom: 5%;
+  }

@@ -1,0 +1,31 @@
+.modal-right {
+}
+
+.price-tag {
+    display: flex;
+    transform: translate(-20px,10px);
+    -webkit-transition: all .45s ease-in-out .85s;
+    transition: all .45s ease-in-out .85s;
+}
+ 
+.close:hover {
+  background-color: #00008000 !important;
+}
+
+.icon-butt {
+    color:red;
+    transform: scale(.8);
+    transition: all .15s ease-in-out;
+    font-size: 35px;
+}
+
+.icon-butt:hover {
+    font-size: 40px;
+}
+
+@media (min-width: 576px) {
+    .modal-dialog {
+        max-width: 900px !important;
+        margin: 1.75rem auto;
+    }
+}

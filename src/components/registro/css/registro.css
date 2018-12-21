@@ -1,0 +1,132 @@
+.well {
+    width: 30%;
+    min-height: 20px;
+    padding: 19px;
+    margin-bottom: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+}
+
+.contentTitle{
+    text-align: center!important;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    width: 100%;
+}
+
+.form-control {
+    width: 94%;
+    height: 17px;
+    display: block;
+    padding: 6px 12px;
+    font-size: 14px;
+    color: #555;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    outline: 0;
+}
+
+.form-control:focus {
+    color: #959a9f !important;
+    background-color: #fff;
+    border-color: #9E9E9E !important;
+    outline: 0;
+    box-shadow: none !important;
+}
+
+.contenedor{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.iconsModify {
+    color: white;
+    margin-right: 18px;
+    margin-bottom: 5px;
+}
+
+.iconsModify:hover{
+    color: #999691;
+}
+
+
+.buttonValidando{
+    text-align: center;
+}
+
+.errorMessage {
+   color: red;
+   font-size: 0.75em;
+   display: relative;
+}
+
+.alert-c-v {
+    text-align: center;
+    padding: 10px;
+    background-color:red;
+    color: #fff;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: none;
+}
+
+.btnNone{
+    width: 100%;
+    height: 40px;
+    border: solid 1px #7c7b79;
+    background-color: #999691;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 12px;
+    font-size: 17px;
+    color: white;
+    outline: 0;
+}
+
+.btnNone:hover {
+    border: solid 2px #FF9800;
+    background-color: #FF9800;
+}
+
+@media only screen and (max-width: 700px) {
+    .well {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .well {
+        width: 80%;
+    }
+
+    .contenedor{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 40px;
+    }
+
+    .form-control {
+        width: 93%;
+    }
+
+}

@@ -1,0 +1,40 @@
+.input-number:focus {
+    color: #959a9f !important;
+    background-color: #fff;
+    border-color: #9E9E9E !important;
+    outline: 0;
+    box-shadow: none !important;
+}
+
+
+.masNumber .inputNumber > [class^="col-"] {
+    padding-top: .75rem !important;
+    margin-bottom: 0 !important;
+    color: #5F5F5F;
+}
+
+.input-number {
+    margin-left: 25px;
+}
+
+.imgContent {
+    height: 210px;
+}
+
+.subtitle {
+    color: #FFC107;
+    padding: 5px;
+}
+
+.subtitlePadre {
+    padding: 5px;
+}
+
+input.error {
+    border-color: red;
+  }
+  
+
+@media only screen and (max-width: 700px) {
+    
+}

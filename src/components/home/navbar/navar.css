@@ -1,0 +1,54 @@
+.product-u {
+    margin-right: 30px;
+}
+
+.product-c {
+  margin-right: 30px;
+}
+
+.login-close {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    margin-top: 0 !important;
+}
+
+.content-popover {
+  position: absolute;
+  will-change: transform;
+  top: 0px;
+  left: 0px !important;
+  transform: translate3d(1077px, 65px, 0px) !important;
+}
+
+.arrow {
+  left: 208px !important;
+}
+
+.fixed  {
+  position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+
+.color-icons {
+  color: rgba(0, 0, 0, 0.8);
+  margin-top: 5px;
+}
+
+.product-item {
+  position: absolute;
+  margin-left: 34px;
+  margin-top: 9px;
+  color: #fff;
+  font-size: 15px;
+}
+
+.cart-fond {
+  background-color: red;
+  padding: 1px 4px 2px;
+  border-radius: 23%;
+}

@@ -1,0 +1,83 @@
+*, *:after, *:before {
+    top: 10 !important;
+    left: 0;
+  }
+  
+  .container .row > [class^="col-"] {
+    padding-top: .95rem;
+    padding-bottom: .95rem;
+    margin-bottom: 10px;
+    margin-top: 2px;
+    /*border: 1px solid #C9C1D5;*/
+    color: #5F5F5F;
+  }
+
+  .inputColor:focus,
+  .btn-secondary:focus {
+      box-shadow: none !important;
+  }
+
+  .border-contenedor {
+    box-shadow: 5px 2px 16px #000000cf;
+    border-radius: 5px !important;
+    background-color: white;
+  }
+
+.contentPrinc {
+    margin-top: 100px;
+}
+
+.borderColumns {
+    box-shadow: none !important;
+}
+
+.colum-top {
+    margin-top: 30px;
+}
+
+.borderRadius {
+    border-radius: 1px solid #C9C1D5 !important;
+    
+}
+
+.divider {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    width: 100%;
+}
+
+.content-left-icon {
+    position: absolute;
+    z-index: 1;
+    margin-top: 230px;
+    margin-left: 1px;
+}
+
+.button-left {
+    border-radius: 50%;
+    border: none;
+    padding: 6px 14px; 
+}
+
+.content-rigth-icon {
+  position: absolute;
+  margin-top: 230px;
+  right: 1px;
+  text-align: right;
+}
+
+.button-rigth {
+    border-radius: 50%;
+    border: none;
+    padding: 6px 14px; 
+}
+
+button:focus {
+    outline: 0;
+    outline: none !important;
+}

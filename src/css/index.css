@@ -6,9 +6,17 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #00ffff00;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+@media only screen and (max-width: 600px) {
+
+  body{
+    margin: 0;
+    padding: 0;
+    background: url(../img/login-fondo.jpg);
+    background-size: 500px, 200px!important;
+    width: 100%;
+  }
+
 }

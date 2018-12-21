@@ -1,0 +1,13 @@
+.alert-input {
+    display: none;
+    margin-left: 950px;
+    position: fixed;
+    margin-top: 8%;
+    color: white;
+    background-color: red;
+    padding: 7px 1px;
+    width: 25%;
+    border-radius: 5px;
+    box-shadow: 3px 2px 1px 0px black;
+    z-index: 1;
+}

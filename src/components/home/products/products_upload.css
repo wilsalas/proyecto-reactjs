@@ -1,0 +1,113 @@
+.container .row > [class^="col-"] {
+  padding-top: .95rem;
+  padding-bottom: .95rem;
+  margin-bottom: 10px;
+  color: #5F5F5F;
+}
+ 
+ .img-content {
+    background: rgba(227, 222, 222, 0.33);
+    border-radius: 5px;
+    height: 290px;
+    width: 100%;
+  }
+
+  .uploader {
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.02);
+    cursor: pointer;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    outline: 2px dashed #ccc;
+    outline-offset: 2px;
+    border-radius: 5px;
+    position: relative;
+    width: 100%;
+   
+  }
+
+  .uploader img {
+    opacity: 0;
+    max-height: 100%;
+    width: 100%;
+    position: absolute;
+    transition: all 300ms ease-in;
+    border-radius: 5px;
+  }
+  .uploader img.loaded {
+    opacity: 1;
+  }
+  
+  .file-button {
+    position:relative;
+    margin:50px;
+    margin-top: -105px !important;
+    padding:40px;
+    background-color: #2499e3;
+    -webkit-border-radius: 50%;
+    float: right;
+    cursor: pointer !important;
+  }
+  
+  .iconsButton {
+    text-align: center;
+    color:white;
+    cursor: pointer;
+  }
+  
+  .btn_enviar[type="file"] {
+    position:absolute;
+    top:0px;
+    left:0px;
+    right:0px;
+    bottom:0px;
+    width:100%;
+    height:100%;
+    opacity: 0;
+  }
+  
+  .bord-cont-prod  {
+    box-shadow: 5px 2px 16px #000000cf;
+    border-radius: 5px !important;
+    background-color: white;
+    margin-top: 100px;
+    padding: 40px 24px;
+  }
+
+  .f-content-imgB {
+    margin-bottom: -100px;
+  }
+
+  .form-products:focus {
+    color: #959a9f !important;
+    background-color: #fff;
+    border-color: #9E9E9E !important;
+    outline: 0;
+    box-shadow: none !important;
+}
+
+.alert {
+  text-align: center;
+  padding: 10px;
+  background-color: #79c879;
+  color: #fff;
+  margin-bottom: 10px;
+  display: none;
+  border-radius: 3px;
+}
+
+.danger-error {
+  color: red;
+}
+
+.error {
+  border-color: red;
+}
+
+.fond-progress-f {
+    margin-top: -160px !important;
+    text-align: center !important;
+    width: 40%;
+    display: none;
+}
